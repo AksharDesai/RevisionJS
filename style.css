@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_container{
+    width: 400px;
+    height: 400px;
+    background-color: cadetblue;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.box__top{
+    width: 100%;
+    height: 100px;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+    font-style: italic;
+    font-weight:lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box__input{
+    width: 100%;
+    height: 50px;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+
+
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding-left: 20px;
+    border: 2px black;
+}
+
+.box__bottom{
+    width: 100%;
+    height: 250px;
+    /* background-color: aquamarine; */
+    display: flex;
+    padding-left: 75px;
+    padding-top: 20px;
+}
+li{
+    list-style-type: none;
+    width: 250px;
+    height: 30px;
+    /* background-color: red; */
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    
+}
+p{
+    margin-right: 150px;
+}
+i{
+    margin-right: 15px;
+}
+
+input[type="text"]:focus {
+    outline: 2px solid #4CAF50; /* Green focus ring */
+    outline-offset: 2px; /* Optional: Creates space between the outline and the element */
+  }
