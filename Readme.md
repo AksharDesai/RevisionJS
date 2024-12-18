@@ -17,6 +17,15 @@ const todo = e.target.parentElement
 no need to pass the e
 make the event listener functions they are necessary dont define inside
 
-what is JSON.parse?
+what is JSON.parse?,JSON.stringify?
 
 complete the ui first and then add to database maybe it is better for UX in my opinion
+
+
+nextsibling / previous sibling
+
+
+set and get attribute in html sometimes helpful
+
+
+li.queryselector
