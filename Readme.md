@@ -29,3 +29,13 @@ set and get attribute in html sometimes helpful
 
 
 li.queryselector
+
+
+how to use git ignore
+
+and use
+
+git rm -r --cached directory_name
+
+
+to remove the already added file in github 
